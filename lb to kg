@@ -1,0 +1,10 @@
+name = input('My name is: ')
+age = input('My birth year is: ')
+weight = input('My weight in lb: ')
+height = input('My height in inches: ')
+w = int(weight) * 0.454
+h = int(height) * 2.54
+print(name.capitalize(), end=' ')
+print(2021-int(age), 'Years old')
+print('Weight in Kg: ', w, " kg")
+print('Height in Cm: ', h, " cm")
